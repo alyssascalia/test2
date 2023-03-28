@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+//label
     @IBAction func buttonPressed(_ sender: Any) {
         let randomNumber = Int.random(in: 0...(arrayOfQuotes.count-1))
         label.text = arrayOfQuotes[randomNumber]
